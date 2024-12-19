@@ -1,0 +1,1 @@
+savedcmd_/home/xinyili/Documents/os_design/os_homework/proc/proc_example.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/xinyili/Documents/os_design/os_homework/proc/proc_example.ko /home/xinyili/Documents/os_design/os_homework/proc/proc_example.o /home/xinyili/Documents/os_design/os_homework/proc/proc_example.mod.o

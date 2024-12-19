@@ -1,0 +1,1 @@
+savedcmd_/home/xinyili/Documents/os_design/os_homework/proc/modules.order := {   echo /home/xinyili/Documents/os_design/os_homework/proc/proc_example.o; :; } > /home/xinyili/Documents/os_design/os_homework/proc/modules.order

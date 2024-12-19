@@ -1,0 +1,19 @@
+# Makefile for procfs_example kernel module
+
+# 指定模块名称，与源代码文件名一致
+obj-m := proc_example.o
+
+# 内核构建目录的路径，取决于你的内核版本
+KDIR := /lib/modules/$(shell uname -r)/build
+
+# 当前目录
+PWD := $(shell pwd)
+
+# 默认目标：编译模块
+all:
+	$(MAKE) -C $(KDIR) M=$(PWD) modules
+
+# 清理目标：删除生成的文件
+clean:
+	$(MAKE) -C $(KDIR) M=$(PWD) clean
+

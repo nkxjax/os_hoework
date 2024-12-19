@@ -1,0 +1,1 @@
+savedcmd_/home/xinyili/Documents/os_design/os_homework/proc/proc_example.mod := printf '%s\n'   proc_example.o | awk '!x[$$0]++ { print("/home/xinyili/Documents/os_design/os_homework/proc/"$$0) }' > /home/xinyili/Documents/os_design/os_homework/proc/proc_example.mod
